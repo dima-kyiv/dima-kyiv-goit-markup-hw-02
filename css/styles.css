@@ -2,6 +2,11 @@ body {
   width: 1600px;
   margin: 0px;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* Header styles */
 .header {
   box-sizing: border-box;
@@ -310,7 +315,7 @@ body {
   display: block;
   box-sizing: border-box;
   width: 1170px;
-  margin: 94px auto;
+  margin: 94px auto 0x;
   outline: 2px solid red;
 }
 .portfolio-title {
@@ -332,12 +337,51 @@ body {
 }
 .portfolio .list {
   list-style: none;
+  margin: 0px;
   padding: 0px;
   outline: 2px solid red;
 }
 .portfolio-item {
+  display: inline-block;
   box-sizing: border-box;
   width: 370px;
   height: 404px;
-  outline: 2px solid red;
+  margin-bottom: 30px;
+  margin-right: 26px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.portfolio-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.portfolio-item:last-child {
+  margin-bottom: 94px;
+}
+.project-title {
+  display: inline-block;
+
+  margin: 20px 0px 4px 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.filter {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin: 0px;
+  margin-left: 24px;
+  text-decoration: none;
 }
