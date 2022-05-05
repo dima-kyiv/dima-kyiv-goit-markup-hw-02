@@ -1,0 +1,343 @@
+body {
+  width: 1600px;
+  margin: 0px;
+}
+/* Header styles */
+.header {
+  box-sizing: border-box;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  outline: 2px solid red;
+}
+.navigation {
+  display: inline-block;
+  margin-left: 0px;
+  vertical-align: middle;
+  outline: 2px solid red;
+}
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 24px 93px 25px 0px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: #2196f3;
+  outline: 2px solid red;
+}
+.logo-black {
+  color: #000;
+}
+.navigation-list {
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+  padding: 0;
+  margin: 0px;
+}
+.contact-list {
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  outline: 2px solid red;
+}
+.item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+.item:last-child {
+  margin-right: 0px;
+}
+.link {
+  text-decoration: none;
+}
+.header .link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.navigation-list .link {
+  color: #212121;
+}
+.navigation-list .link:hover,
+.navigation-list .link:focus,
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: #2196f3;
+}
+.contact-list .link {
+  color: #757575;
+}
+/* Maine styles */
+.main {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #e5e5e5;
+  outline: 2px solid red;
+}
+.hero {
+  height: 600px;
+  background-color: #2f303a;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+}
+.title {
+  display: inline-block;
+  margin-top: 200px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: 2px solid red;
+}
+.hero-button {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/* Quality */
+.quality {
+  margin: 93px auto;
+  box-sizing: border-box;
+  width: 1170px;
+}
+.quality-title {
+  display: none;
+}
+.quality-list {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.quality .item {
+  box-sizing: border-box;
+  width: 270px;
+  margin-right: 26px;
+  padding: 0px;
+  vertical-align: top;
+}
+.quality .item:last-child {
+  margin-right: 0px;
+}
+
+.quality-benefits {
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.quality-text {
+  margin: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* Чим займаємось */
+.work {
+  margin: 94px auto;
+  box-sizing: border-box;
+  width: 1170px;
+}
+.work-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+.work-list {
+  margin: 0px;
+  padding: 0px;
+}
+.work .item {
+  display: inline-block;
+  margin-right: 26px;
+  box-sizing: border-box;
+  width: 370px;
+}
+.work .item:last-child {
+  margin-right: 0px;
+}
+/* Team */
+.team {
+  background-color: #f5f4fa;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team-title {
+  padding-top: 94px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-list {
+  display: inline-block;
+  width: 1170px;
+  margin: 50px auto 94px;
+  padding: 0px;
+  outline: 2px solid red;
+}
+.team-list > .item {
+  width: 270px;
+  height: 368px;
+  margin-right: 26px;
+  padding: 0px;
+  background-color: #ffffff;
+}
+.team-list > .item:last-child {
+  margin-right: 0px;
+}
+.team-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin: 0px;
+  padding-top: 30px;
+}
+.team-position {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+/* Fouter styles */
+.footer {
+  background-color: #2f303a;
+}
+.footer .logo {
+  display: inline-block;
+  margin: 60px 0px 20px 215px;
+  outline: 2px solid red;
+}
+.logo-white {
+  color: #ffffff;
+}
+.address-list {
+  display: inline-block;
+  list-style: none;
+  margin-left: 215px;
+  margin-bottom: 60px;
+  padding: 0px;
+}
+.address-list .item {
+  display: block;
+  margin: 0px;
+}
+.item .address-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.item:first-child .address-link {
+  color: #ffffff;
+}
+.portfolio {
+  display: block;
+  box-sizing: border-box;
+  width: 1170px;
+  margin: 94px auto;
+  outline: 2px solid red;
+}
+.portfolio-title {
+  display: none;
+}
+.portfolio .list:first-child {
+  display: block;
+  list-style: none;
+  margin-bottom: 0px auto 34px auto;
+  outline: 2px solid red;
+}
+.filters-item {
+  display: inline-block;
+  margin-right: 8px;
+  outline: 2px solid red;
+}
+.filters-item:last-child {
+  margin-right: 0px;
+}
+.portfolio .list {
+  list-style: none;
+  padding: 0px;
+  outline: 2px solid red;
+}
+.portfolio-item {
+  box-sizing: border-box;
+  width: 370px;
+  height: 404px;
+  outline: 2px solid red;
+}
