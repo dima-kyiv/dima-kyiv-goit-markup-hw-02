@@ -1,4 +1,8 @@
-/*#region Reset/Base styles */
+/*#region Custom properties */
+
+/*#endregion */
+
+/*#region Reset/Base */
 body {
   width: 1600px;
   margin: 0px;
@@ -10,7 +14,7 @@ body {
 }
 /*#endregion*/
 
-/*#region Header styles */
+/*#region Header */
 .header {
   box-sizing: border-box;
   width: 1170px;
@@ -86,6 +90,47 @@ body {
   color: #757575;
 }
 /*#endregion*/
+
+/*#region Fouter */
+.footer {
+	background-color: #2f303a;
+ }
+ .footer .logo {
+	display: inline-block;
+	margin: 60px 0px 20px 215px;
+	outline: 2px solid red;
+ }
+ .logo-white {
+	color: #ffffff;
+ }
+ .address-list {
+	display: inline-block;
+	list-style: none;
+	margin-left: 215px;
+	margin-bottom: 60px;
+	padding: 0px;
+ }
+ .address-list .item {
+	display: block;
+	margin: 0px;
+ }
+ .item .address-link {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+	/* or 171% */
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+ }
+ .item:first-child .address-link {
+	color: #ffffff;
+ }
+ /*#endregion */
+
+/* -----Index------ */
 
 /*#region Hero */
 .main {
@@ -191,7 +236,7 @@ body {
 }
 /*#endregion*/
 
-/*#region What we do*/
+/*#region What we do */
 .work {
   margin: 94px auto;
   box-sizing: border-box;
@@ -286,48 +331,13 @@ body {
 }
 /*#endregion */
 
-/*#region Fouter styles */
-.footer {
-  background-color: #2f303a;
-}
-.footer .logo {
-  display: inline-block;
-  margin: 60px 0px 20px 215px;
-  outline: 2px solid red;
-}
-.logo-white {
-  color: #ffffff;
-}
-.address-list {
-  display: inline-block;
-  list-style: none;
-  margin-left: 215px;
-  margin-bottom: 60px;
-  padding: 0px;
-}
-.address-list .item {
-  display: block;
-  margin: 0px;
-}
-.item .address-link {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration: none;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.item:first-child .address-link {
-  color: #ffffff;
-}
+/*#region Clients */
+
 /*#endregion */
 
 /* -----Portfolio----- */
 
-/* sdsd */
+/*#region Porfoilio */
 .portfolio {
   display: block;
   box-sizing: border-box;
@@ -409,3 +419,4 @@ body {
   opacity: 1;
   vertical-align: middle;
 }
+/*#endregion */
