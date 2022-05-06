@@ -1,13 +1,16 @@
+/*#region Reset/Base styles */
 body {
   width: 1600px;
   margin: 0px;
 }
 *,
-*::before,
+*::before, 
 *::after {
   box-sizing: border-box;
 }
-/* Header styles */
+/*#endregion*/
+
+/*#region Header styles */
 .header {
   box-sizing: border-box;
   width: 1170px;
@@ -82,7 +85,9 @@ body {
 .contact-list .link {
   color: #757575;
 }
-/* Maine styles */
+/*#endregion*/
+
+/*#region Hero */
 .main {
   display: inline-block;
   margin-left: auto;
@@ -132,7 +137,9 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
 }
-/* Quality */
+/*#endregion */
+
+/*#region Quality */
 .quality {
   margin: 93px auto;
   box-sizing: border-box;
@@ -182,7 +189,9 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-/* Чим займаємось */
+/*#endregion*/
+
+/*#region What we do*/
 .work {
   margin: 94px auto;
   box-sizing: border-box;
@@ -212,7 +221,9 @@ body {
 .work .item:last-child {
   margin-right: 0px;
 }
-/* Team */
+/*#endregion */
+
+/*#region Team */
 .team {
   background-color: #f5f4fa;
   margin-left: auto;
@@ -273,7 +284,9 @@ body {
   margin-bottom: 30px;
   padding: 0px;
 }
-/* Fouter styles */
+/*#endregion */
+
+/*#region Fouter styles */
 .footer {
   background-color: #2f303a;
 }
@@ -310,6 +323,11 @@ body {
 .item:first-child .address-link {
   color: #ffffff;
 }
+/*#endregion */
+
+/* -----Portfolio----- */
+
+/* sdsd */
 .portfolio {
   display: block;
   box-sizing: border-box;
@@ -383,4 +401,11 @@ body {
   margin: 0px;
   margin-left: 24px;
   text-decoration: none;
+}
+.hover {
+  opacity: 0;
+}
+.hover:hover {
+  opacity: 1;
+  vertical-align: middle;
 }
